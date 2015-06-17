@@ -2,12 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Replace '1234' in the bracket with your numeric ID
-np.random.seed(1234)
+np.random.seed(1300842)
 
 n = 100
 x = np.random.random(n)
 y = np.random.random(n)
-c = np.random.random(n)  # color of points
+c = np.random.random(n)  
+# color of points
 s = 500 * np.random.random(n)  # size of points
 
 fig, ax = plt.subplots()
